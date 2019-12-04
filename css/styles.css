@@ -1,0 +1,79 @@
+/* 
+TODO:
+[] - Get google fonts for satisfy and Open Sans
+
+*KEY* 
+Primary Color: #C9C983
+Primary Heading Font: 'Satisfy', open-sans
+Base Color: #EEDDCD
+*/
+
+/*              IMPORTS                      */
+
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+/*                 NAVBAR SECTION                  */
+.logo {
+    width: 90px;
+}
+
+header h1 {
+    color: #C9C893;
+    font-family: 'satisfy', open-sans;
+    margin-top: 20px;
+}
+
+.nav-pills > li.active > a {
+    color: #5C433F;
+    background-color: #EEDDCD;
+}
+
+.nav-pills > li.active > a:hover, product button:hover {
+    background-color: #EDF1F4;
+    color: #5C433F;
+}
+
+nav li {
+    font-size: 15px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+ .jumbo-text {
+    color:white;
+    opacity: 80%;
+}
+
+.product {
+    background-color: #EEDDCD;
+    border-radius: 2%;
+    margin-right: 0px;
+}
+
+a {
+    background-color: #EEDDCD;
+    border: 2px solid #EEDDCD;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #EEDDCD;
+    height: 110px;
+}
+
+footer div {
+    margin-top: 15px;
+    border-right: 1px solid black;
+}
+
+footer li {
+    list-style-type: none;
+}
