@@ -25,8 +25,12 @@ header h1 {
 
 .nav-pills > li.active > a {
     color: #5C433F;
+}
+
+.nav-pills > li.active > a, .product, aside a, footer {
     background-color: #EEDDCD;
 }
+
 
 .nav-pills > li.active > a:hover, product button:hover {
     background-color: #EDF1F4;
@@ -37,7 +41,7 @@ nav li {
     font-size: 15px;
 }
 
-nav {
+nav, footer div {
     margin-top: 15px;
 }
 
@@ -48,32 +52,45 @@ nav {
 }
 
  .jumbo-text {
+    font-family: 'Open Sans', sans-serif;
     color:white;
     opacity: 80%;
+    font-weight: 300;
 }
 
 .product {
-    background-color: #EEDDCD;
-    border-radius: 2%;
-    margin-right: 0px;
+    border-radius: 6%;
+    border: 5px solid white;
 }
 
-a {
-    background-color: #EEDDCD;
+.img_box {
+    margin: 10px 0;
+}
+
+.product button {
+    margin-bottom: 10px;
+}
+aside a {
     border: 2px solid #EEDDCD;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 footer {
     margin-top: 80px;
-    background-color: #EEDDCD;
     height: 110px;
 }
 
 footer div {
-    margin-top: 15px;
     border-right: 1px solid black;
-}
+} 
 
 footer li {
     list-style-type: none;
+}
+
+footer p {
+    margin-top: 60px;
 }
